@@ -1,0 +1,14 @@
+/* font-family: 'DM Serif Display', serif;
+font-family: 'Poppins', sans-serif; */
+
+h1 {
+  font-family: "DM Serif Display", serif;
+  color: #e8ccea;
+  font-size: 48pt;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: #cfd764;
+  font-size: 18pt;
+}
