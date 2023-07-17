@@ -53,6 +53,27 @@ p {
   color: var(--accent-color);
 }
 
+.card-title {
+  color: var(--primary-color);
+  font-family: var(--primary-font-family);
+}
+
+.card-text {
+  font-size: 18px;
+}
+.card-button {
+  display: block;
+  text-align: center;
+}
+.card-body {
+  background: var(--background-color);
+}
+
+#featured {
+  font-family: var(--primary-font-family);
+  color: var(--primary-color);
+}
+
 #github-icon {
   display: block;
   text-align: center;
