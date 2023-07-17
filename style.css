@@ -1,39 +1,56 @@
 /* font-family: 'DM Serif Display', serif;
 font-family: 'Poppins', sans-serif; */
 
-h1 {
-  font-family: "DM Serif Display", serif;
-  color: #e8ccea;
+:root {
+  --background-color: whitesmoke;
+  --primary-color: #e8ccea;
+  --secondary-color: #cfd764;
+  --accent-color: #035549;
+  --secondary-accent-color: #e9f3e8;
+  --primary-font-family: "DM Serif Display", serif;
+  --secondary-font-family: "Poppins", sans-serif;
+}
+.landing {
+  background-color: var(--background-color);
+  padding: 160px 20px;
+  display: block;
+  text-align: center;
+}
+
+.landing h1 {
+  font-family: var(--primary-font-family);
+  color: var(--primary-color);
   font-size: 48pt;
   display: block;
   text-align: center;
 }
 
-h2 {
-  font-family: "Poppins", sans-serif;
-  color: #cfd764;
+.landing h2,
+p {
+  font-family: var(--secondary-font-family);
+  color: var(--secondary-color);
   font-size: 18pt;
   display: block;
   text-align: center;
   margin: 30px;
 }
+
+.landing h2 {
+  font-weight: bold;
+  font-size: 28px;
+}
 .button-accent {
-  background-color: #035549;
+  background-color: var(--accent-color);
   border-radius: 5px;
-  padding: 10px;
-  color: #e9f3e8;
+  padding: 15px 30px;
+  color: var(--secondary-accent-color);
   margin: 20px;
 }
 
 .button-accent:hover {
-  background: #e9f3e8;
-  border-color: #035549;
-  color: #035549;
-}
-
-#contact-button {
-  display: block;
-  text-align: center;
+  background: var(--secondary-accent-color);
+  border-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 #github-icon {
