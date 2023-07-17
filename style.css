@@ -5,10 +5,39 @@ h1 {
   font-family: "DM Serif Display", serif;
   color: #e8ccea;
   font-size: 48pt;
+  display: block;
+  text-align: center;
 }
 
 h2 {
   font-family: "Poppins", sans-serif;
   color: #cfd764;
   font-size: 18pt;
+  display: block;
+  text-align: center;
+  margin: 30px;
+}
+.button-accent {
+  background-color: #035549;
+  border-radius: 5px;
+  padding: 10px;
+  color: #e9f3e8;
+  margin: 20px;
+}
+
+.button-accent:hover {
+  background: #e9f3e8;
+  border-color: #035549;
+  color: #035549;
+}
+
+#contact-button {
+  display: block;
+  text-align: center;
+}
+
+#github-icon {
+  display: block;
+  text-align: center;
+  margin: 30px;
 }
