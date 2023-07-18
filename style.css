@@ -10,6 +10,16 @@ font-family: 'Poppins', sans-serif; */
   --primary-font-family: "DM Serif Display", serif;
   --secondary-font-family: "Poppins", sans-serif;
 }
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 40px;
+  }
+  #about-content p {
+    font-size: 10pt;
+  }
+}
+
 .landing {
   background-color: var(--background-color);
   padding: 160px 20px;
@@ -89,7 +99,7 @@ p {
   text-align: center;
   font-size: 12px;
   background-color: var(--background-color);
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .about-section h1 {
@@ -106,11 +116,14 @@ p {
 
 .about-section p {
   font-size: 28px;
-  padding: 30px;
+  padding: 20px;
 }
 
 #about-image {
   border-radius: 150px 150px 4px 4px;
-  margin: 50px;
+  margin: 0 auto;
+  padding-top: 20px;
   max-width: 300px;
+  text-align: center;
+  display: block;
 }
