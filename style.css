@@ -83,3 +83,34 @@ p {
 #git-link {
   text-decoration: none;
 }
+
+.about-section {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  background-color: var(--background-color);
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-family: var(--primary-font-family);
+  color: var(--primary-color);
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.about-section h2 {
+  font-family: var(--secondary-font-family);
+  color: var(--accent-color);
+}
+
+.about-section p {
+  font-size: 28px;
+  padding: 30px;
+}
+
+#about-image {
+  border-radius: 150px 150px 4px 4px;
+  margin: 50px;
+  max-width: 300px;
+}
