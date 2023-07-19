@@ -64,8 +64,12 @@ p {
 }
 
 .card-title {
-  color: var(--primary-color);
+  color: var(--accent-color);
   font-family: var(--primary-font-family);
+}
+
+.card {
+  border-color: var(--accent-color);
 }
 
 .card-text {
@@ -126,4 +130,34 @@ p {
   max-width: 300px;
   text-align: center;
   display: block;
+}
+.work-section {
+  font-size: 12px;
+  background-color: var(--background-color);
+  padding: 80px 30px;
+}
+
+.work-section h1 {
+  font-family: var(--primary-font-family);
+  color: var(--primary-color);
+  font-size: 48px;
+}
+
+.work-section h3 {
+  font-family: var(--primary-font-family);
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 18px;
+  color: var(--accent-color);
+}
+
+.work-section p {
+  font-size: 16px;
+  padding-top: 0;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+.work-section img {
+  max-width: 400px;
 }
