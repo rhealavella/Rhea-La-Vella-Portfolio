@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -32,6 +32,26 @@
   <body>
     <div class="work-section">
       <h1>Let's Connect!</h1>
+      <form>
+        <div class="mb-3">
+          <label class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input type="text" class="form-control" id="email" required />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Message</label>
+          <textarea
+            type="text"
+            class="form-control"
+            id="message"
+            required
+          ></textarea>
+          <input class="btn button-accent" type="submit" value="Submit" />
+        </div>
+      </form>
     </div>
     <footer>
       <a id="git-link" href="https://github.com/rhealavella" target="_blank"
