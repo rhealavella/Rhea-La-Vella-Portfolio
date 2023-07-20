@@ -108,16 +108,6 @@ p {
   color: var(--primary-color);
 }
 
-#github-icon {
-  display: block;
-  text-align: center;
-  margin: 30px;
-}
-
-#git-link {
-  text-decoration: none;
-}
-
 .about-section {
   display: block;
   text-align: center;
@@ -186,4 +176,17 @@ p {
   font-family: var(--secondary-font-family);
   color: var(--secondary-color);
   font-weight: bold;
+}
+
+h4 {
+  font-family: var(--primary-font-family);
+  color: var(--primary-color);
+  margin-top: 20px;
+}
+
+.footer-link {
+  text-decoration: none;
+  list-style: none;
+  display: inline-flex;
+  padding: 0;
 }
