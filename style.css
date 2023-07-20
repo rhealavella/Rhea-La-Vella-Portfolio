@@ -20,6 +20,26 @@ font-family: 'Poppins', sans-serif; */
   }
 }
 
+.navbar-brand {
+  font-family: var(--primary-font-family);
+  font-size: 12pt;
+  color: var(--primary-color);
+}
+.navbar-brand:hover {
+  color: var(--primary-color);
+}
+
+.nav-link,
+.nav-link .active {
+  font-family: var(--secondary-font-family);
+  color: var(--accent-color);
+  font-size: 11pt;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--secondary-color);
+}
 .landing {
   background-color: var(--background-color);
   padding: 160px 20px;
