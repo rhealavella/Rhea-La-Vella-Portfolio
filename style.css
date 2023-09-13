@@ -2,11 +2,11 @@
 font-family: 'Poppins', sans-serif; */
 
 :root {
-  --background-color: whitesmoke;
-  --primary-color: #e8ccea;
-  --secondary-color: #cfd764;
-  --accent-color: #035549;
-  --secondary-accent-color: #e9f3e8;
+  --background-color: white;
+  --primary-color: #f58039;
+  --secondary-color: #19357a;
+  --accent-color: #9eccf5;
+  --secondary-accent-color: #19357a;
   --primary-font-family: "DM Serif Display", serif;
   --secondary-font-family: "Poppins", sans-serif;
 }
@@ -90,9 +90,8 @@ p {
   color: var(--accent-color);
   font-family: var(--primary-font-family);
 }
-
 .card {
-  border-color: var(--accent-color);
+  border: 1px solid whitesmoke;
 }
 
 .card-text {
@@ -175,10 +174,22 @@ p {
   max-width: 400px;
 }
 
-.form-label {
+.contact-header {
+  font-family: var(--primary-font-family);
+  color: var(--primary-color);
+  font-size: 40px;
+  padding: 30px;
+  display: block;
+  text-align: center;
+}
+.contact-text {
   font-family: var(--secondary-font-family);
   color: var(--secondary-color);
-  font-weight: bold;
+  font-size: 20pt;
+  margin: 30px;
+  padding: 20px;
+  display: block;
+  text-align: center;
 }
 
 h4 {
@@ -192,4 +203,8 @@ h4 {
   list-style: none;
   display: inline-flex;
   padding: 0;
+  margin: 10px;
+}
+.footer-text {
+  font-size: small;
 }
