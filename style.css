@@ -44,15 +44,15 @@ font-family: 'Poppins', sans-serif; */
   color: var(--secondary-color);
 }
 .landing {
-  background-color: var(--background-color);
-  padding: 160px 20px;
+  background-color: var(--primary-color);
+  padding: 60px 20px;
   display: block;
   text-align: center;
 }
 
 .landing h1 {
   font-family: var(--primary-font-family);
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-size: 48pt;
   display: block;
   text-align: center;
